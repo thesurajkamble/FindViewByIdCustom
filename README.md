@@ -1,3 +1,7 @@
+
+
+
+```
 fun <T : View> ViewGroup.whereMyView(viewId: Int): T? {
     //if ViewGroup's 'Id' is same as 'viewId' return ViewGroup
     if (this.id == viewId) return this as? T
@@ -11,3 +15,4 @@ fun <T : View> ViewGroup.whereMyView(viewId: Int): T? {
     }
     return null
 }
+```
